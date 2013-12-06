@@ -63,7 +63,7 @@ _Hurd(Translators probably make this not useful) maybe_
 
 _FreeBSD doubt (on my own) but who knows_
 
-###Note for haters (kind of AFQ) :)
+###Note for haters (kind of FAQ) :)
 
 __You can get same functionality by doing X,Z,Y things on F file system.__
 
