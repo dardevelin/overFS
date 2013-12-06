@@ -26,45 +26,56 @@ an appropriate license for you.
 
 ##Lets Play imagine for a little!
 
-_HQ Videos/Video Editing:_
+__*HQ Videos/Video Editing:*__
+
 Bigger blocks/inodes make more sense here, and such files should really
 be packed.
 
-_What about altering the video file ?_
+__*What about altering the video file ?*__
+
 Why not apply your working parts as copy-on-write ? That way you can use
 your video editor right on top of your original file, and each time you change
 a chunck, you do it copy-on-write style, 
 once you save the project back to HQ big chops style.
 
-_Configuration files:_
+__*Configuration files:*__
+
 Awesome, small very important files. Sounds like copy-on-write
 style file system applies better for this scenario, preferably with btrfs style
 30 seconds rollback ?
 
 
 ##Why 'overlapping' for name ?
-__Short Answer:__ 
+
+__*Short Answer:*__
+
 Short name, sounds nice and still shows the main concept, doesn't appear taken.
 
-__Kind of Long Answer:__
+__*Kind of Long Answer:*__
+
 I am pretty sure I will end up reiventing the wheel at some point, specifically
 when trying to get some concepts from other file systems into this hybrid version.
 
 ##Supported Kernels ?!?
 __Linux kernel as first class citizen.__
+
 _Hurd(Translators probably make this not useful) maybe_
+
 _FreeBSD doubt (on my own) but who knows_
 
 ###Note for haters (kind of AFQ) :)
 
 __You can get same functionality by doing X,Z,Y things on F file system.__
+
 I don't want to thinker around existing FS's to get optimization to a single file
 or folder.
 
 __You can use partitions with different FS's settings.__
+
 Sure then do it, Can I try hybrid approach now ?
 
 __Project X that is just like this, why don't you go help there instead ?__
+
 If you know of a project like these, feel free to point me to it. I certainly
 will love to learn from such project. However please do not 
 come with single purpose of getting me to stop the project. This project
