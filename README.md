@@ -67,7 +67,7 @@ _FreeBSD doubt (on my own) but who knows_
 
 __You can get same functionality by doing X,Z,Y things on F file system.__
 
-I don't want to thinker around existing FS's to get optimization to a single file
+I don't want to tinker around existing FS's to get optimization to a single file
 or folder.
 
 __You can use partitions with different FS's settings.__
